@@ -8,7 +8,7 @@ import bodyParser from "body-parser";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
@@ -28,6 +28,10 @@ mongoose
     console.log("Monggose connectd");
   })
   .catch((err) => console.log(err));
+
+app.get("/", (req, res) => {
+  res.send("Backend is running on Vercel!");
+});
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);

@@ -19,8 +19,8 @@ Backend ini menangani proses autentikasi pengguna (login & register) serta memun
 ## Instalasi
 1. **Clone Repository**
    ```bash
-   git clone <repository-url>
-   cd Backend
+   git clone https://github.com/halozra/Debug-Daily-Backend.git
+   cd Debug-Daily-Backend
    ```
 2. **Install Dependencies**
    ```bash

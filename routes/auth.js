@@ -1,7 +1,7 @@
 import express from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import User from "../models/User.js";
+import User from "../models/User.js"
 import verifyToken from "../middleware/verifyToken.js";
 import Post from "../models/Post.js";
 import { body, validationResult } from "express-validator";
