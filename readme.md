@@ -1,7 +1,7 @@
 # Blog Backend
 
 ## Deskripsi
-Backend ini menangani proses autentikasi pengguna (login & register) serta memungkinkan pengguna untuk membuat dan melihat postingan mereka sendiri. Backend dikembangkan menggunakan **Node.js**, **Express.js**, dan **MongoDB**.
+Backend ini menangani proses autentikasi pengguna (login & register) serta memungkinkan pengguna untuk membuat dan melihat postingan mereka sendiri. Backend dikembangkan menggunakan **Node.js**, **Express.js**, dan **MongoDB**. ~nyaaa
 
 ## Fitur Utama
 - **Registrasi Pengguna**: Pengguna dapat mendaftar dengan nama, email, dan password.
